@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <title>정예진_설문조사 양식</title>
+</head>
+<body>
+    <header>
+        <h1>산리오 캐릭터 설문조사</h1>
+        <p>모든 항목에 빠짐없이 체크해주십시오.</p>
+    </header>   
+    <hr>
+    <main>
+     <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="닉네임을 입력하세요"> 
+            <br>
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" placeholder="이메일을 입력하세요">
+            <br>
+            <label for="password">비밀번호</label>
+            <input type="password" id="password" placeholder="비밀번호를 입력하세요">
+        </fieldset>
+        <fieldset>
+            <legend>설문</legend>
+
+            <p>산리오 캐릭터 중 최애 캐릭터는 무엇입니까?</p>
+            <input type="radio" id="hello kitty" name="character">
+            <label for="hello kitty">헬로키티</label>
+            <input type="radio" id="my melody" name="character">
+            <label for="my melody">마이멜로디</label>
+            <input type="radio" id="cinamoroll" name="character">
+            <label for="cinamoroll">시나모롤</label>
+            <input type="radio" id="kuromi" name="character">
+            <label for="kuromi">쿠로미</label>
+            <input type="radio" id="etc" name="character">
+            <label for="etc">기타</label>
+            <hr>
+            <p>산리오 제품을 구매할 때 고려하는 점은 무엇입니까?</p>
+            <input type="checkbox" id="price" name="consideration">
+            <label for="consideration">가격</label>
+            <input type="checkbox" id="quality" name="consideration">
+            <label for="consideration">품질</label>
+            <input type="checkbox" id="easy" name="consideration">
+            <label for="consideration">구매 용이성</label>
+            <input type="checkbox" id="position" name="consideration">
+            <label for="consideration">상점 위치</label>
+            <br>
+            <label for="etc">기타</label>
+            <input type="etc" id="etc" placeholder="기타 요소를 작성해주세요">
+              
+        </fieldset>
+        <fieldset>
+            <legend>기타 의견</legend>
+            <textarea rows="30" cols="30" name="comment"></textarea>
+        </fieldset>
+        <input type="submit">
+     </form>
+    </main> 
+    <hr>
+    <footer>
+        <p>입력하느라 수고하셨습니다.</p>
+    </footer>
+</body>
+</html>
